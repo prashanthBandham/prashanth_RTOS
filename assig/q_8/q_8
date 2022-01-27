@@ -1,0 +1,16 @@
+QUESTION:
+
+        8. List the customization options for creating a task for the RTOS you are using. eg. priority
+           etc
+    
+
+
+
+  ANS: vTaskDelay
+       vTaskDelayUntil
+       xTaskDelayUntil
+       uxTaskPriorityGet
+       vTaskPrioritySet
+       vTaskSuspend
+       vTaskResume
+       xTaskResumeFromISR
